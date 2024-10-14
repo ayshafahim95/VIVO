@@ -1,0 +1,283 @@
+@font-face{
+    font-family: 'aysha';
+    src:url(fonts/fivo-sans.bold.otf);
+}
+
+.header{
+width: 100%;
+height:50px ;
+
+padding-top: 30px;
+position: fixed;
+background-color: rgb(246, 246, 246,0.8);
+
+left: 0px;
+top: 0px;
+align-content: center;
+}
+.header a:hover{
+    color: blue;
+}
+.nav a{
+    color: black;
+}
+.nav a:hover{
+color: blue;
+}
+body{
+    margin: 0;
+    background-color: #f5f7fa;
+    
+}
+
+
+
+
+.nav{
+    float: left;
+    color: black;
+ margin-top: -20px;
+ align-content: center; 
+ margin-left: 150px;
+}
+
+
+.firstpart{
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1727234261333/d1c69330b4a57fecbe34e541aa1951a5.jpg);
+    align-content: center;
+   
+}
+.secondpart{
+    width:1400px ;
+    height: 620px;
+    background-image:url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1726215748658/442298ce19c626f1b3437e24ba81de1b.jpg) ;
+    background-repeat: no-repeat;
+ margin-top: 80px;
+    background-size: auto;
+    border-radius: 50px;
+    margin-left: 100px;
+    align-content: center;
+    
+}
+.thirdpart{
+    width: 1400px;
+    height: 620px;
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1726215845244/49c635dfbf8287b02d5077a816e5c546.jpg);
+    background-repeat: no-repeat;
+   margin-top: 50px;
+    background-size: auto;
+    border-radius: 50px;
+    margin-left: 100px;
+    align-content: center;
+}
+.fourthpart{
+    font-size: 40px;
+    margin-left: 50px;
+    color: black;
+    margin-top: 100px;
+}
+.containerfifthpart{
+    margin-top: 130px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    }
+    .link{
+color: black;
+border-color: black;
+    }
+    .link:hover{
+color: blue;
+border-color: blue;
+    }
+    .link1{
+        color: white;
+        border-color: white;
+    }
+    .link1:hover{
+        color: blue;
+        border-color: blue;
+            }
+
+    
+    .one2img{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 20px;
+        background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1709610199000/a181ab6a128edd0b8ce849f0b075993b.jpg);
+        background-repeat: no-repeat;
+    }
+    .one2text{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        margin-top: -100px;
+        margin-left:50px;
+    }
+    .three1img{
+        width: 100%;
+        height: 450px;
+        background-color: white;
+        border-radius: 20px;
+        background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1678447454226/018bc553b9d635593a17265b2e865dc7.jpg);
+        background-repeat: no-repeat;
+    }
+    .three1text{
+        width: 150px;
+        height: 100px;
+        position: absolute;
+        margin-top: -100px;
+        margin-left:50px;
+      
+    }
+    .three2{
+        margin-top: 20px;
+    }
+    .footer{
+        
+        display: flex;
+        background-color: #222222;
+        
+        }
+        .column1{
+            width: 100%;
+            height: 600px; 
+            margin-top: 60px; 
+            margin-left: 70px;
+          
+        }
+        .column1 a{
+            color: RGB(121, 121, 121);
+            font-size: 14px;
+            font-family: Hind, sans-serif;
+            text-decoration-color: transparent;
+            display: block;
+            line-height: 40PX;
+        }
+        .column1 a:hover{
+            color: blue;
+            text-decoration-color: blue ;
+        }
+        .column2{
+            width: 100%;
+            height: 600px; 
+            margin-top: 60px; 
+         
+          
+        }
+        .column2 a{
+            color: RGB(121, 121, 121);
+            font-size: 14px;
+            font-family: Hind, sans-serif;
+            text-decoration-color: transparent;
+            display: block;
+            line-height: 40PX;
+        }
+        .column2 a:hover{
+            color: blue;
+            text-decoration-color: blue ;
+        }
+        .column3{
+            width: 100%;
+            height: 600px; 
+            margin-top: 60px; 
+          
+          
+        }
+        .column3 a{
+            color: RGB(121, 121, 121);
+            font-size: 14px;
+            font-family: Hind, sans-serif;
+            text-decoration-color: transparent;
+            display: block;
+            line-height: 40PX;
+        }
+        .column3 a:hover{
+            color: blue;
+            text-decoration-color: blue ;
+        }
+        .column4{
+            width: 100%;
+            height: 600px; 
+            margin-top: 60px; 
+          
+          
+        }
+        .column4 a{
+            color: RGB(121, 121, 121);
+            font-size: 14px;
+            font-family: Hind, sans-serif;
+            text-decoration-color: transparent;
+            display: block;
+            line-height: 40PX;
+        }
+        .column4 a:hover{
+            color: blue;
+            text-decoration-color: blue ;
+        }
+        .column5{
+            width: 100%;
+            height:600px ;
+        }
+        
+        .column6{
+            width: 200%;
+            height: 600px;
+            color: RGB(121, 121, 121);
+            margin-top: 60px;
+         display: block;
+         margin-left: 50px;
+    
+        }
+        .column6 a{
+            margin-right: 0px;
+            text-decoration:none;
+            color:  RGB(121, 121, 121);
+            font-size: large;
+        }
+        .column6 a:hover{
+            color: blue;
+            text-decoration-color: blue ;
+        }
+        .linediv{
+            background-color: #222222;
+            border: none;
+            padding: 0;
+        }
+        .line{
+            border: 0;
+            margin: 0px;
+            width: 90%;
+            height: .1px;
+            background-color: RGB(121, 121, 121);
+            margin-left: 5%;
+            
+
+        }
+        .copyright{
+            width: 100%;
+            height: 50px;
+            background-color: #222222;
+            margin-top:0.5px;
+            align-content: center;
+           color: RGB(121, 121, 121);
+          
+        }
+        .copyright a{
+            color:RGB(121, 121, 121);
+            text-decoration: none;
+        }
+        #head-logo :hover{
+               fill: #415FFF;
+        }
+        #head-logo{
+            position: absolute;
+            margin-top: -80px;
+            margin-left: -80px;
+        }
